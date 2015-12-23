@@ -517,6 +517,7 @@ def build(ctx):
         ( "video/vaapi.c",                       "vaapi" ),
         ( "video/vdpau.c",                       "vdpau" ),
         ( "video/vdpau_mixer.c",                 "vdpau" ),
+        ( "video/out/vo_led.c"),
 
         ## osdep
         ( getch2_c ),

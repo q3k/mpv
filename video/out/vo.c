@@ -56,6 +56,7 @@ extern const struct vo_driver video_out_null;
 extern const struct vo_driver video_out_image;
 extern const struct vo_driver video_out_lavc;
 extern const struct vo_driver video_out_caca;
+extern const struct vo_driver video_out_led;
 extern const struct vo_driver video_out_drm;
 extern const struct vo_driver video_out_direct3d;
 extern const struct vo_driver video_out_sdl;
@@ -98,6 +99,7 @@ const struct vo_driver *const video_out_drivers[] =
 #if HAVE_CACA
     &video_out_caca,
 #endif
+    &video_out_led,
 #if HAVE_DRM
     &video_out_drm,
 #endif
